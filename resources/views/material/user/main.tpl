@@ -391,6 +391,12 @@
 									<i class="icon icon-lg">airplanemode_active</i>&nbsp;节点列表
 								</a>
 							</li>
+							
+							<li>
+								<a href="/top">
+									<i class="icon icon-lg">vertical_align_top</i>&nbsp;使用排行
+								</a>
+							</li>
 
 							<li>
 								<a href="/user/relay">
