@@ -205,6 +205,91 @@ class AuthController extends BaseController
                 return $response->getBody()->write(json_encode($res));
             }
 
+            //check email if is ban
+              $spamemail = array(
+                "@chongsoft.org",
+                "@wormseo.cn",
+                "@wormseo.com",
+                "@chongsoft.cn",
+                "@zyseo.com",
+                "@seorj.cn",
+                "@qqneiyi.cn",
+                "@chongblog.cn",
+                "@chongblog.com",
+                "@71mail.com.cn",
+                "@designhot.net.cn",
+                "@marketnet.com.cn",
+                "@newline.net.cn",
+                "@company-mail.cn",
+                "@cpok-bdqn.com.cn",
+                "@cp-bdqnok.com.cn",
+                "@bdqncpok.com.cn",
+                "@bdqnok-cp.com.cn",
+                "@bdqn-hicp.com.cn",
+                "@wormsoft.cn",
+                "@chongseo.net",
+                "@chongseo.cn",
+                "@chongseo.com",
+                "@huiseo.cn",
+                "@csoftmail.cn",
+                "@delu",
+                "@hongkong-seo.com",
+                "@xdseo.com",
+                "@www.bccto.me",
+                "@bccto.me",
+                "@4057.com",
+                "@chaichuang.com",
+                "@dawin.com",
+                "@jiaxin8736.com",
+                "@3202.com",
+                "@a7996.com",
+                "@juyouxi.com",
+                "@dongqing365.com",
+                "@4059.com",
+                "@cr219.com",
+                "@jnpayy.com",
+                "@cuirushi.org",
+                "@1766258.com",
+                "@chacuo.net",
+                "027168.com",
+                "@yopmail.fr",
+                "@yopmail.net",
+                "@cool.fr.nf",
+                "@jetable.fr.nf",
+                "@nospam.ze.tc",
+                "@nomail.xl.cx",
+                "@mega.zik.dj",
+                "@speed.1s.fr",
+                "@courriel.fr.nf",
+                "@moncourrier.fr.nf",
+                "@monemail.fr.nf",
+                "@monmail.fr.nf",
+                "@dropmail.me",
+                "mail.ac.id"
+                 );
+          $allow_email = array(
+            "@qq.com",
+            "@gmail.com",
+            "@163.com",
+            "@126.com",
+            "@sohu.com",
+            "@sina.com",
+            "@outlook.com",
+            "@139.com",
+            "@yeah.net",
+            "@tom.com",
+            "@foxmail.com",
+            "@hotmail.com",
+            "@aliyun.com",
+            "@21cn.com"
+            );
+                foreach ($spamemail as $spam) {
+                  if (strpos($email, $spam)) {
+                      $res['ret'] = 0;
+                      $res['msg'] = "此邮箱为黑名单邮箱，请更换邮箱注册";
+                      return $response->getBody()->write(json_encode($res));
+                  }
+                }
             // check email format
             if (!Check::isEmailLegal($email)) {
                 $res['ret'] = 0;
