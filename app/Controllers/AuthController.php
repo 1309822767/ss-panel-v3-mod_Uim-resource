@@ -266,7 +266,16 @@ class AuthController extends BaseController
                 "@monmail.fr.nf",
                 "@dropmail.me",
                 "mail.ac.id",
-				"@sharklasers.com"
+				"@sharklasers.com",
+				"grr.la",
+				"guerrillamail.biz",
+				"guerrillamail.com",
+				"guerrillamail.de",
+				"guerrillamail.net",
+				"guerrillamail.org",
+				"guerrillamailblock.com",
+				"spam4.me",
+				"@mailnesia.com"
                  );
           $allow_email = array(
             "@qq.com",
