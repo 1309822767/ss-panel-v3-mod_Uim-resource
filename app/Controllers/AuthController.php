@@ -265,7 +265,8 @@ class AuthController extends BaseController
                 "@monemail.fr.nf",
                 "@monmail.fr.nf",
                 "@dropmail.me",
-                "mail.ac.id"
+                "mail.ac.id",
+				"@sharklasers.com"
                  );
           $allow_email = array(
             "@qq.com",
