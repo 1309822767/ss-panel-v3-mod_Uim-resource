@@ -86,7 +86,7 @@ It will not impact the appearance and can give developers a lot of support :)
 												</tr>
 												<tr>
 													<td>本程序由十一一键脚本搭建</td>
-													<td>教程地址：<a href="https://blog.67cc.cn/archives/sspanelv3mod-revise-the-one-key-script-again.html">https://blog.67cc.cn/archives/sspanelv3mod-revise-the-one-key-script-again.html</a></td>
+													<td>教程地址：<a href="https://blog.67cc.cn/archives/sspanelv3moduim-a-key-to-build-script-for-centos-7x.html">ss-panel-v3-mod_Uim 一键搭建脚本 for Centos 7.x</a></td>
 												</tr> 
                                               
 											</tbody>
