@@ -15,7 +15,7 @@
 									-->
 									<h1 class="card-heading">
 										<div class="text" style=" text-align:center;">
-											欢迎来到
+										     欢迎来到注册系统，如果您不是mifi设备用户，请点击退出！
 										</div>
 										<div class="text" style=" text-align:center;font-weight: bold;">
 											{$config["appName"]}
