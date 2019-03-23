@@ -82,7 +82,7 @@
                       <!--标签1开始-->
                       <article id="1">
                       <h2 class="major">简介</h2>
-                      <p>「ホワイトアルバムの季節」が、また、やってきた。</p></article>
+                      <p>「Design for MIFI8909」导航站。</p></article>
 					  <!--
 					  简介修改示例: 
 					  <p> 123</p>
@@ -151,7 +151,7 @@
                               </div>
                      <!-- 版权底部 -->
                       <footer id="footer">
-                   <p class="copyright">&copy;2015-{date("Y")} {$config["appName"]}</p>
+                   <p class="copyright 图匪">&copy;2015-{date("Y")} {$config["appName"]}</p>
                       </footer>
               <!-- 版权结束 -->
 			 </div>
