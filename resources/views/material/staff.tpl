@@ -18,7 +18,7 @@
               <!--首页开始-->
                           <div class="content">
 							<div class="inner">
-								<h1>staff</h1>
+								<h1>MIFI 8909</h1>
                           </div>
                         </div>
 <!--
@@ -85,8 +85,8 @@ It will not impact the appearance and can give developers a lot of support :)
 													<td>此列表为参与到 <a href="https://github.com/NimaQu/ss-panel-v3-mod_UIChanges">ss-panel-v3 glzjin mod UIChanges</a> 中的人员，在此表示感谢。</td>
 												</tr>
 												<tr>
-													<td>本程序由十一一键脚本搭建</td>
-													<td>教程地址：<a href="https://blog.67cc.cn/archives/sspanelv3moduim-a-key-to-build-script-for-centos-7x.html">ss-panel-v3-mod_Uim 一键搭建脚本 for Centos 7.x</a></td>
+													<td>本程序由用于mifi设备，不作它用</td>
+													<td>"违规将删除账户">mifi for Centos 7.x</a></td>
 												</tr> 
                                               
 											</tbody>
